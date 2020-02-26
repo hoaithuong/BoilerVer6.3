@@ -3,6 +3,8 @@ import Page from "../components/Page";
 import AttributeFilterExample from "./components/AttributeFilterExample";
 import AttributeElementsExample from "./components/AttributeElementsExample";
 import AttributeFilterPivotTableExample from "./components/AttributeFilterPivotTableExample";
+import ParentFilterExample from "./components/ParentFilterExample";
+import MeasureValueFilterDropdownExample from "./components/MeasureValueFilterDropdownExample";
 
 const AttributeFilterComponents = () => {
     return (
@@ -32,6 +34,15 @@ const AttributeFilterComponents = () => {
                 <h3>Attribute Filter Pivot Table</h3>
                 <AttributeFilterPivotTableExample />
                 <br />
+            </div>
+            <div>
+                <h3>Attribute Filter Pivot Table</h3>
+                <ParentFilterExample />
+                <br />
+            </div>
+            <div>
+                <h3>Measure value filter</h3>
+                <MeasureValueFilterDropdownExample></MeasureValueFilterDropdownExample>
             </div>
         </Page>
     );

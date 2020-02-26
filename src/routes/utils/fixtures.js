@@ -8,7 +8,7 @@ const demoProject = {
     "https://developer.na.gooddata.com": "xms7ga4tf3g3nzucd8380o2bev8oeknp",
 };
 
-const backendUrl = "https://staging3.intgdc.com"; // eslint-disable-line no-undef
+const backendUrl = "https://staging.intgdc.com"; // eslint-disable-line no-undef
 const demoProjectId = demoProject[backendUrl];
 if (!demoProjectId) {
     console.error(`[fixtures.js] ProjectId for backend "${backendUrl}" is not in `, demoProject); // eslint-disable-line no-console
@@ -93,7 +93,7 @@ export const comboVisualizationIdentifier = "aag2LeI3cJ1V";
 export const comboVisualizationUri = `/gdc/md/${projectId}/obj/9147`;
 export const dualColumnVisualizationIdentifier = "aaePJArweqWe";
 export const dualColumnVisualizationUri = `/gdc/md/${projectId}/obj/8895`;
-export const DateFilterinVisIdentifier = "aaccgG6HaWdw";
+export const DateFilterinVisIdentifier = "aahHSnOtdKuH";
 
 //CSV project
 export const sumAmountIdentifier = "aab5Xy7Dg9hw";

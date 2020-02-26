@@ -38,6 +38,9 @@ const Links = () => {
             <NavLink to="/drilling" className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Drilling
             </NavLink>
+            <NavLink to="/pivot-table" className={styles.Link} activeClassName={styles.LinkActive} exact>
+                Pivot Table
+            </NavLink>
             <NavLink to="/visualization" className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Visualizations
             </NavLink>

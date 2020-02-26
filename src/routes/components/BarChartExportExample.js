@@ -2,12 +2,7 @@ import React, { Component } from "react";
 import { BarChart, Model } from "@gooddata/react-components";
 
 import ExampleWithExport from "./utils/ExampleWithExport";
-import { 
-    dateDataSetUri, 
-    locationResortIdentifier, 
-    projectId, 
-    totalSalesIdentifier 
-} from "../utils/fixtures";
+import { dateDataSetUri, locationResortIdentifier, projectId, totalSalesIdentifier } from "../utils/fixtures";
 
 export class BarChartExportExample extends Component {
     onLoadingChanged(...params) {

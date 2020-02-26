@@ -15,6 +15,7 @@ import AttributeFilterComponents from "./AttributeFilterComponents";
 import DateFilterComponents from "./DateFilterComponents";
 import DrillingComponents from "./DrillingComponents";
 import VisualizationComponents from "./VisualizationComponents";
+import PivotTableComponents from "./PivotTableComponents";
 
 const RedirectIfNotLoggedIn = () => {
     const auth = useAuth();
@@ -34,7 +35,7 @@ const AppRouter = () => {
                 <Route exact path="/export-components" component={ExportComponents} />
                 <Route exact path="/drilling" component={DrillingComponents} />
                 <Route exact path="/visualization" component={VisualizationComponents} />
-                <Route exact path="/dashboard" component={() => <Page>Dashboard</Page>} />
+                <Route exact path="/pivot-table" component={PivotTableComponents} />
                 <Route exact path="/welcome" component={Welcome} />
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/logout" component={Logout} />

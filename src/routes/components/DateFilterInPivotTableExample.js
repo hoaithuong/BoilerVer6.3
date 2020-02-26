@@ -5,7 +5,6 @@ import "@gooddata/react-components/styles/css/dateFilter.css";
 import {
     projectId,
     dateDatasetIdentifier,
-    yearDateIdentifier,
     quarteryearDateIdentifier,
     locationStateDisplayFormIdentifier,
     locationNameDisplayFormIdentifier,
@@ -46,7 +45,7 @@ const availableGranularities = [
     "GDC.time.month",
     "GDC.time.quarter",
     "GDC.time.year",
-    "GDC.time.week",
+    "GDC.time.week_us",
 ];
 const defaultDateFilterOptions = {
     allTime: {
