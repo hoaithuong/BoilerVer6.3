@@ -8,7 +8,7 @@ const demoProject = {
     "https://developer.na.gooddata.com": "xms7ga4tf3g3nzucd8380o2bev8oeknp",
 };
 
-const backendUrl = "https://staging.intgdc.com"; // eslint-disable-line no-undef
+const backendUrl = "https://staging3.intgdc.com"; // eslint-disable-line no-undef
 const demoProjectId = demoProject[backendUrl];
 if (!demoProjectId) {
     console.error(`[fixtures.js] ProjectId for backend "${backendUrl}" is not in `, demoProject); // eslint-disable-line no-console
@@ -84,7 +84,7 @@ export const numberOfRestaurantsIdentifier = "aawAq8YqhM3o";
 export const averageRestaurantDailyCostsIdentifier = "aaQJzQzoeKwZ";
 export const grossProfitIdentifier = "aa5JBkFDa7sJ";
 export const totalCostsIdentifier = "aaQHncjzfrtR";
-export const grossProfitUri = "/gdc/md/${projectId}/obj/6877";
+export const grossProfitUri = `/gdc/md/${projectId}/obj/6877`;
 export const pivotTableVisualizationIdentifier = "aahHSnOtdKuH";
 export const pivotTableVisualizationUri = `/gdc/md/${projectId}/obj/9224`;
 export const ProductUri = `/gdc/md/${demoProjectId}/obj/949`;

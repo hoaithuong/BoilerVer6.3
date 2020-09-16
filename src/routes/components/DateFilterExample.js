@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { DateFilter } from "@gooddata/react-components";
-import "@gooddata/react-components/styles/css/dateFilter.css";
+// import "@gooddata/react-components/styles/css/dateFilter.css";
 
 const dateFrom = new Date();
 dateFrom.setMonth(dateFrom.getMonth() - 1);

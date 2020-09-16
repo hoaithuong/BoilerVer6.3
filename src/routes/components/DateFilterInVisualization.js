@@ -1,7 +1,7 @@
 // (C) 2007-2019 GoodData Corporation
 import React, { Component } from "react";
 import { DateFilter, DateFilterHelpers, Visualization } from "@gooddata/react-components";
-import "@gooddata/react-components/styles/css/dateFilter.css";
+// import "@gooddata/react-components/styles/css/dateFilter.css";
 import { projectId, dateDatasetIdentifier, DateFilterinVisIdentifier } from "../utils/fixtures";
 
 const dateFrom = new Date();
